@@ -18,6 +18,7 @@ module PairTripleDetector_GL
 wire x;
 wire y;
 wire w;
+//
 
 or (w, in0, in1);
 and(x, in0, in1);
